@@ -147,12 +147,24 @@ footer {
     padding: 5px;
     text-align: center;
 }
+.over a { 
+    text-decoration: none;
+    color: white;
+ 
+}
 .under{
     position: relative;
     left:0;
     top: 0px;
     z-index: 1;
     width: 285px;
+}
+.portimg{
+    position: relative;
+    left: 0;
+    top: 0px;
+    z-index: 2;
+    width:150px;
 }
 #portfolio li{
     display: inline-block;
